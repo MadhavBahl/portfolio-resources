@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Portfolio - Resources
 
-## Available Scripts
+Resources for portfolio website made in react.
 
-In the project directory, you can run:
+Note* This repo contains the boilerplate code for the portfolio website, for complete code, check the next section
 
-### `yarn start`
+## Completed code
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+For the complete code, visit this repo - https://github.com/MadhavBahlMD/portfolio
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To see the portfolio live, visit - http://madhavbahl.tech/portfolio/
 
-### `yarn test`
+## Screenshots 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/26179770/82739072-56607180-9d5a-11ea-8117-0f7df5bf6b00.png)
 
-### `yarn build`
+![image](https://user-images.githubusercontent.com/26179770/82746296-d236da00-9dab-11ea-8fbe-3a897cda2164.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to run
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. git clone `https://github.com/MadhavBahlMD/portfolio`
+2. cd `portfolio`
+3. npm install
+4. npm run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Enhancements
 
-### `yarn eject`
+Here are the things which can be improved
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Add experience section
+2. Add portfolio links at the bottom of SideNav
+3. Use a common card element for all the cards (prevent duplicate code)
+4. Use an enum for `selectedSection`
+5. Enhance the view for small screen.
+6. Use localstorage to save the active session.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What to do after the webinar?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Explore these topics
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. React Router
+2. React Hooks
+3. Redux
